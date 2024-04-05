@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>my portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/19def8ce3b.js"
+            crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="image/logo2.png" alt class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <!-- <li><a href="#">service</a></li> -->
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#contact">contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Student at GPA</p>
+                    <h1>Hi, I'm <span>Sanika </span><br>Bhor From Awsari</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- *************************************** about******************************************* -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="image/about.jpg" alt>
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Perferendis maiores consectetur distinctio
+                            quas culpa aliquam vero
+                            nisi soluta corrupti veniam id dolores quisquam
+                            delectus tenetur, ex facere placeat aspernatur,
+                            blanditiis dicta repellendus
+                            rem. Animi, eos? Vitae minus natus corrupti delectus
+                            voluptas eos dignissimos reiciendis, recusandae, ea,
+                            consequuntur voluptate?
+                            Nam, quam?</p>
+
+                        <div class="tab-title">
+                            <p class="tab-links active-link"
+                                onclick="opentab('education')">Education</p>
+                            <p class="tab-links"
+                                onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"
+                                onclick="opentab('experience')">Experience</p>
+                        </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span> <br>diploma in information technology in government polytechnic Awsari</li>
+                                <li><span>2020</span><br> SSC from shri bhairvanth vidyalay Awsari kd</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Java</span><br>Java developer</li>
+                                <li><span>Web Development</span><br> Web App
+                                    development</li>
+                                <li><span>App Development</span><br>building
+                                    Android/ios apps Web/App interfaces</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <!-- <li><span>2021 - current </span><br>UI/UX Design
+                                    at ET institude</li>
+                                <li><span>2019 - 2021 </span><br> team lead at
+                                    DtarApp LLC.</li>
+                                <li><span>2017 - 2019 </span><br>UI/UX Design
+                                    Executive at Coin Digital Ltd.</li>-->
+                                <li><span>6 week</span><br>internship at
+                                    USP IT solution, chakan</li> 
+                                    <li><span>current</span><br>Fresher</li>
+                            </ul>
+                        </div>
+
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- *************************************** services******************************************* -->
+        <div id="service">
+            <div class="container">
+                <h1 class="sub-title">my Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Neque, minus reprehenderit! Temporibus labore
+                            unde aperiam aut rem corrupti, amet consequuntur!
+                            Pariatur mollitia libero corporis eaque?</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Neque, minus reprehenderit! Temporibus labore
+                            unde aperiam aut rem corrupti, amet consequuntur!
+                            Pariatur mollitia libero corporis eaque?</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Neque, minus reprehenderit! Temporibus labore
+                            unde aperiam aut rem corrupti, amet consequuntur!
+                            Pariatur mollitia libero corporis eaque?</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- *************************************** portfolio ******************************************* -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">my Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <video src="video/family.mp4" autoplay loop controls
+                            muted></video>
+                        <div class="layer">
+                            <h3>Photo's web App</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Magnam possimus accusamus
+                                dolorem eaque officia volupta</p>
+                            <a href="https://family-my.netlify.app/"
+                                target="_blank"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <video src="video/library.mp4" autoplay loop controls
+                            muted></video>
+                        <div class="layer">
+                            <h3>Library website</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Magnam possimus accusamus
+                                dolorem eaque officia volupta</p>
+                            <a href="#"><i class="fas fa-external-link-alt"
+                                    ></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <video src="video/calculator.mp4" autoplay loop controls
+                            muted></video>' <div class="layer">
+                            <h3>Calculator web App</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Magnam possimus accusamus
+                                dolorem eaque officia volupta</p>
+                            <a href="https://my-calculator-my.netlify.app/"
+                                target="_blank"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>'
+                    </div>
+                </div>
+                <a href="https://www.linkedin.com/in/sanika-bhor-a3171526b/" class="btn">See More</a>
+            </div>
+        </div>
+
+        <!-- *************************************** contact ******************************************* -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p> <i class="fas fa-paper-plane"></i></i> bhorsanika0239@gmial.com</p>
+                        <p> <i class="fas fa-phone-square-alt"></i> 8446756339</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/sanika-bhor-a3171526b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <a href="" class="btn btn2">Download CV</a>
+
+                        <span id="msg"></span>
+                    </div>
+                     <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" id="i1" required>
+                            <input type="email" name="Email" placeholder="Your Email" id="i2" required>
+                            <textarea name="Message" rows="6" placeholder="Your message" id="i3"></textarea>
+                            <button type="submit" class="btn btn2 btn3">Submit</button>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright &#169; Sanika Bhor portfolio <i class="fas fa-heart"></i>  </p>
+            </div>
+        </div>
+
+        <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+             for(tablink of tablinks)
+             {
+                tablink.classList.remove("active-link");
+             }
+              for(tabcontent of tabcontents)
+             {
+                tabcontent.classList.remove("active-tab");
+             }
+             event.currentTarget.classList.add("active-link");
+             document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemeu.style.right="0";
+        }
+         function closemenu()
+        {
+            sidemeu.style.right="-200px";
+        }
+    </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxAiWd5tApoVGvQ4OC-QCwyPxD2AQcisNlM_40Tj-3Qc335RczNJXjy10315X5sikMMmQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+const msg=document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message send successfully";
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+
+    //     document.getElementById("i1").value="";
+    // document.getElementById("i2").value="";
+    // document.getElementById("i3").value="";
+  })
+</script>
+    </body>
+</html>
