@@ -8,8 +8,16 @@ Front-end development involves creating the visual and interactive aspects of a 
 
 To get started with the "Front-End Development" project, follow these steps:
 
-Clone the repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/sanika-bhor/Front-End-Development.git
    ```
+2. Navigate to the project directory:
+   ```bash
+   cd Front-End-Development
+   ```
+
+3. Open the project in your preferred code editor and start building your application.
+
+---------------------------------------------------------------------------------------------------------------------
 
